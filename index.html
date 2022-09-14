@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Макет</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/adaptive.css">
-  </head>
-  <body>
 
-    <header>
-      <div class="conteiner_limit">
-        <div class="container_header">
-          <a class="logo" href=""><img src="img/logo.png" alt=""></a>
-          <nav>
-            <ul class="nav_item">
-              <li class="nav_list"><a class="nav__list__menu" href="">Features</a></li>
-              <li class="nav_list"><a class="nav__list__menu" href="">About</a></li>
-              <li class="nav_list"><a class="nav__list__menu" href="">Pricing</a></li>
-              <li class="nav_list"><a class="nav__list__menu" href="">Reviews</a></li>
-              <li class="nav_list"><a class="nav__list__menu" href="">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AXIT</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/adaptive.css">
+</head>
 
-    <main>
+<body>
+
+  <header>
+    <div class="container_header">
+      <a class="logo" href=""><img src="img/logo.png" alt=""></a>
+      <nav>
+        <ul class="nav_item">
+          <li class="nav_list"><a class="nav__list__menu" href="">Features</a></li>
+          <li class="nav_list"><a class="nav__list__menu" href="">About</a></li>
+          <li class="nav_list"><a class="nav__list__menu" href="">Pricing</a></li>
+          <li class="nav_list"><a class="nav__list__menu" href="">Reviews</a></li>
+          <li class="nav_list"><a class="nav__list__menu" href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
 
     <section class="modern">
       <div class="container_limit">
@@ -57,6 +57,9 @@
               <br>
               <button type="button" name="button">Get Started</button>
             </form>
+          </div>
+          <div class="try-free">
+            <button href="#" class="try-free__btn">Try it for <b>FREE</b></button>
           </div>
         </div>
       </div>
@@ -97,19 +100,53 @@
     <section class="tabs">
       <div class="container_limit tabs__container__limit">
         <div class="tabs__contant">
-          <div class="tabs__contant__container">
+          <div class="tabs__contant__container" data-path="one" id="tab-one">
             <p class="tabs__contant__heading">TAB 1</p>
           </div>
-          <div class="tabs__contant__container">
+          <div class="tabs__contant__container" data-path="two" id="tab-two">
             <p class="tabs__contant__heading">TAB 2</p>
           </div>
-          <div class="tabs__contant__container">
+          <div class="tabs__contant__container" data-path="three" id="tab-three">
             <p class="tabs__contant__heading">TAB 3</p>
           </div>
         </div>
-        <div class="tabs__discription">
+        <div class="tabs__discription tabs__discription-active tabs__discription-anim" data-target="one">
           <h2 class="tabs__discription__heading">
-            Tabs with soft transitioning effect.
+            Tabs with soft transitioning effect. TAB-1
+          </h2>
+          <p class="tabs__discription__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+            penatibus et magnis dis parturient montes.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+          </p>
+          <a href="" class="tabs__discription__btn">
+            Download
+          </a>
+        </div>
+        <div class="tabs__discription tabs__discription-anim" data-target="two">
+          <h2 class="tabs__discription__heading">
+            Tabs with soft transitioning effect. TAB-2
+          </h2>
+          <p class="tabs__discription__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+            penatibus et magnis dis parturient montes.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+          </p>
+          <a href="" class="tabs__discription__btn">
+            Download
+          </a>
+        </div>
+        <div class="tabs__discription tabs__discription-anim" data-target="three">
+          <h2 class="tabs__discription__heading">
+            Tabs with soft transitioning effect. TAB-3
           </h2>
           <p class="tabs__discription__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
@@ -141,7 +178,9 @@
           </h2>
           <span class="sub__discription__line"></span>
           <p class="sub__discription__signature">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nesciunt, facilis corrupti incidunt magnam illum, unde maiores saepe, tempora possimus consequatur totam eveniet expedita, fugiat tenetur accusamus eligendi. Consequatur, assumenda.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nesciunt, facilis corrupti incidunt magnam
+            illum, unde maiores saepe, tempora possimus consequatur totam eveniet expedita, fugiat tenetur accusamus
+            eligendi. Consequatur, assumenda.
           </p>
           <div class="sub__discription__output">
             <span class="sub__discription__text__img sub__img__output"></span>
@@ -161,7 +200,8 @@
                 Title
               </h2>
               <p class="sub__discription__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione necessitatibus eligendi, earum accusamus doloribus ea nemo praesentium, voluptatem harum nihil.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione necessitatibus eligendi, earum
+                accusamus doloribus ea nemo praesentium, voluptatem harum nihil.
               </p>
             </div>
           </div>
@@ -177,7 +217,9 @@
           </h2>
           <span class="standart__contant__line"></span>
           <p class="standart__contant__discription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenea euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenea euismod bibendum laoreet. Proin gravida dolor
+            sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+            penatibus et magnis dis parturient montes.
             <br>
             <br>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
@@ -203,7 +245,8 @@
               Thoughtful Design
             </h3>
             <p class="why__this__contant__discription">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, praesentium. A asperiores maxime pariatur dolore, exercitationem, cumque dignissimos sequi et!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, praesentium. A asperiores maxime
+              pariatur dolore, exercitationem, cumque dignissimos sequi et!
             </p>
           </div>
           <div class="why__this__contant_stb">
@@ -212,7 +255,8 @@
               Well Crafted
             </h3>
             <p class="why__this__contant__discription">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, praesentium. A asperiores maxime pariatur dolore, exercitationem, cumque dignissimos sequi et!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, praesentium. A asperiores maxime
+              pariatur dolore, exercitationem, cumque dignissimos sequi et!
             </p>
           </div>
           <div class="why__this__contant_stb">
@@ -221,7 +265,8 @@
               Easy to Customize
             </h3>
             <p class="why__this__contant__discription">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, praesentium. A asperiores maxime pariatur dolore, exercitationem, cumque dignissimos sequi et!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, praesentium. A asperiores maxime
+              pariatur dolore, exercitationem, cumque dignissimos sequi et!
             </p>
           </div>
         </div>
@@ -353,7 +398,8 @@
           <div class="what__our__contant__comm">
             <div class="what__our__contant__comment">
               <p class="contant__comment">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ut natus, accusantium. Laudantium ut quis perferendis ratione, hic veritatis eaque.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ut natus, accusantium. Laudantium ut
+                quis perferendis ratione, hic veritatis eaque.
               </p>
             </div>
             <div class="contant__account">
@@ -371,7 +417,8 @@
           <div class="what__our__contant__comm">
             <div class="what__our__contant__comment">
               <p class="contant__comment">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ut natus, accusantium. Laudantium ut quis perferendis ratione, hic veritatis eaque.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ut natus, accusantium. Laudantium ut
+                quis perferendis ratione, hic veritatis eaque.
               </p>
             </div>
             <div class="contant__account">
@@ -389,7 +436,8 @@
           <div class="what__our__contant__comm">
             <div class="what__our__contant__comment">
               <p class="contant__comment">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ut natus, accusantium. Laudantium ut quis perferendis ratione, hic veritatis eaque.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ut natus, accusantium. Laudantium ut
+                quis perferendis ratione, hic veritatis eaque.
               </p>
             </div>
             <div class="contant__account">
@@ -412,7 +460,8 @@
       <div class="container_limit stylish__container_limit">
         <h2 class="stylish__heading">STYLISH AXURE DESIGN</h2>
         <span class="stylish__line"></span>
-        <p class="stylish__discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio repellat quasi maxime accusantium nostrum cupiditate!</p>
+        <p class="stylish__discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio repellat
+          quasi maxime accusantium nostrum cupiditate!</p>
         <a href="" class="stylish__btn">Download</a>
       </div>
     </section>
@@ -439,37 +488,39 @@
         </form>
       </div>
     </section>
-    </main>
+  </main>
 
-    <footer class="footer">
-      <div class="container_limit footer__media__limit">
-        <div class="footer__media__ss">
-          <a href="" class="footer__ss footer__facebook">
-            <span class="footer__img footer__img__facebook"></span>
-          </a>
-          <a href="" class="footer__ss footer__twitter">
-            <span class="footer__img footer__img__twitter"></span>
-          </a>
-          <a href="" class="footer__ss footer__google">
-            <span class="footer__img footer__img__google"></span>
-          </a>
-          <a href="" class="footer__ss footer__pinterest">
-            <span class="footer__img footer__img__pinterest"></span>
-          </a>
-          <a href="" class="footer__ss footer__instagram">
-            <span class="footer__img footer__img__instagram"></span>
-          </a>
-          <a href="" class="footer__ss footer__vk">
-            <span class="footer__img footer__img__vk"></span>
-          </a>
-          <a href="" class="footer__ss footer__yt">
-            <span class="footer__img footer__img__yt"></span>
-          </a>
-        </div>
-        <div class="footer__discription">
-          <p class="footer__discription__text">© 2015 Axure Themes</p>
-        </div>
+  <footer class="footer">
+    <div class="container_limit footer__media__limit">
+      <div class="footer__media__ss">
+        <a href="" class="footer__ss footer__facebook">
+          <span class="footer__img footer__img__facebook"></span>
+        </a>
+        <a href="" class="footer__ss footer__twitter">
+          <span class="footer__img footer__img__twitter"></span>
+        </a>
+        <a href="" class="footer__ss footer__google">
+          <span class="footer__img footer__img__google"></span>
+        </a>
+        <a href="" class="footer__ss footer__pinterest">
+          <span class="footer__img footer__img__pinterest"></span>
+        </a>
+        <a href="" class="footer__ss footer__instagram">
+          <span class="footer__img footer__img__instagram"></span>
+        </a>
+        <a href="" class="footer__ss footer__vk">
+          <span class="footer__img footer__img__vk"></span>
+        </a>
+        <a href="" class="footer__ss footer__yt">
+          <span class="footer__img footer__img__yt"></span>
+        </a>
       </div>
-    </footer>
-  </body>
+      <div class="footer__discription">
+        <p class="footer__discription__text">© 2015 Axure Themes</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
