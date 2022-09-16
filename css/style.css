@@ -1344,6 +1344,10 @@ header {
   transition: color 0.5s ease;
 }
 
+.feedback_active {
+  display: block;
+}
+
 @keyframes tabs-anim {
   0% {
     transform: scale(0.5);
