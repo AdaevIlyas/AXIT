@@ -37,3 +37,18 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#one-info').classList.remove('pricing__options__card__item-active');
   });
 });
+
+// jq
+$(function () {
+  $('#nav-icon3').click(function () {
+    $(this).toggleClass('open');
+  });
+});
+
+// burger
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelector('#nav-icon3').addEventListener('click', function () {
+    document.querySelector('#menu').classList.toggle('burger-menu_active');
+  })
+})
