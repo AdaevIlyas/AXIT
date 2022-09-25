@@ -408,7 +408,8 @@
   .why__this__container__limit,
   .what__our__container_limit,
   .stylish__container_limit,
-  .contact__us__container_limit {
+  .contact__us__container_limit,
+  .pricing__options__container__limit {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -454,5 +455,257 @@
 
   .stylish__heading {
     font-size: 32px;
+  }
+
+  .stylish__btn {
+    padding: 12px 25px;
+  }
+
+  .contact__us__form {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .contact__us__form__column_one {
+    width: 100%;
+  }
+
+  .contact__us__form__column_one input {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 30px;
+  }
+
+  .contact__us__form__column_two {
+    width: 100%;
+  }
+
+  .column_two_comment {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .column_two_comment textarea {
+    padding-left: 0px;
+  }
+
+  .contact__us__form__container__btn {
+    text-align: center;
+  }
+}
+
+@media (max-width:480px) {
+
+  .container_header,
+  .container_limit {
+    max-width: 320px;
+  }
+
+  .modern,
+  .tabs__container__limit,
+  .sub__container__limit,
+  .standart__container__limit,
+  .why__this__container__limit,
+  .what__our__container_limit,
+  .stylish__container_limit,
+  .contact__us__container_limit,
+  .pricing__options__container__limit {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .modern_big_logo {
+    width: 90px;
+  }
+
+  .modern_heading {
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+
+  .modern_line {
+    margin-bottom: 15px;
+  }
+
+  .modern_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .btn_modern_download {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+  .media__img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .tabs__contant__container {
+    width: 50px;
+    height: 50px;
+  }
+
+  .tabs__contant__heading {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .tabs__discription__heading {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .tabs__discription__text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .tabs__discription__btn {
+    font-size: 14px;
+  }
+
+  .sub__discription__heading {
+    font-size: 18px;
+  }
+
+  .sub__discription__signature {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .sub__img {
+    min-width: 260px;
+    height: 140px;
+  }
+
+  .sub__contant__img {
+    margin-bottom: 40px;
+  }
+
+  .sub__discription__heading__container {
+    font-size: 14px;
+  }
+
+  .sub__discription__text {
+    font-size: 14px;
+  }
+
+  .sub__discription__text__img {
+    margin-right: 10px;
+    width: 23px;
+    height: 23px;
+    border-width: 2px;
+    background-position: 3px 4px;
+  }
+
+  .standart__img {
+    max-width: 220px;
+    height: 140px;
+    object-position: 0px -26px;
+    margin-bottom: 40px;
+  }
+
+  .standart__contant__heading {
+    font-size: 18px;
+  }
+
+  .standart__contant__discription {
+    font-size: 14px;
+  }
+
+  .why__this__heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .why__this__discription,
+  .what__our__discription {
+    margin-bottom: 25px;
+  }
+
+  .why__this__contant__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .why__this__contant__heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .why__this__contant__discription {
+    line-height: 18px;
+  }
+
+  .pricing__options__heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .pricing__options__discription {
+    margin-bottom: 25px;
+  }
+
+  .what__our__heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .contant__account__avatar {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+
+  .contant__account__author__name {
+    font-size: 18px;
+  }
+
+  .contant__account__author__post {
+    font-size: 12px;
+  }
+
+  .stylish__heading {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .stylish__discription {
+    font-size: 14px;
+    opacity: 1;
+  }
+
+  .stylish__btn {
+    padding: 10px 24px;
+  }
+
+  .stylish__discription {
+    margin-bottom: 22px;
+  }
+
+  .contact__us__heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .contact__us__discription {
+    text-align: center;
+  }
+
+  .contact__us__form__btn {
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+
+  .footer__img {
+    width: 27px;
+    height: 27px;
+  }
+
+  .footer__ss:not(:last-child) {
+    margin-right: 10px;
   }
 }

@@ -246,7 +246,8 @@ input {
 }
 
 textarea {
-  all: unset;
+  /* all: unset; */
+  resize: none;
 }
 
 button {
